@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+:root{
+	--color-primario-Cyan: hsl(180, 66%, 49%);
+	--color-primary-Dark-Violet: hsl(257, 27%, 26%);
+	--color-secondary-Red: hsl(0, 87%, 67%);
+	--color-secondary-Gray: hsl(0, 0%, 75%);
+	--color-secondary-Grayish-Violet: hsl(257, 7%, 63%);
+	--color-secondary-Very-Dark-Blue: hsl(255, 11%, 22%);
+	--color-secondaryVery-Dark-Violet: hsl(260, 8%, 14%);
+	--ancho-maximo: 1440px;
+
+}
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+body{
+	font-family:"Poppins", sans-serif;
+	
+}
+header{
+	max-width:var(--ancho-maximo);
+	margin: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+    
+.header__list{
+font-family: "Poppins", sans-serif;
+display: flex;
+list-style: none;
+gap: 1.5rem;
+}
+.header__link{
+	text-decoration: none;
+	color: var(--color-secondary-Red);
+	font-weight: 700;
+}
+
+.btn_link_login{
+	text-decoration: none;
+	border-radius: 1.5rem;
+    background-color:var(--color-primario-Cyan);
+    width: fit-content;
+    padding: 0.5rem 1.2rem;
+	cursor: pointer; 
+	box-shadow: var(--color-primario-Cyan);
+	color: white;
+}
+.btn_start{
+	border-radius: 1.5rem;
+    background-color:var(--color-primario-Cyan);
+    width: fit-content;
+    padding: 0.5rem 1.2rem;
+	cursor: pointer; 
+	box-shadow: var(--color-primario-Cyan);
+}
+.link_start{
+	text-decoration: none;
+	color: white;
+}
+.main {
+	max-width: var(--ancho-maximo);
+	margin: 0 auto;
+	
+}
+.main p{
+	color: var(--color-secondary-Grayish-Violet);
+}
+.cuerpo{
+	display: flex;
+	}
+.divm1{
+	margin: 100px 50px 0 50px ;
+	}
+.divm1_2{
+	flex: 50%;
+	max-width: 50%;
+}
+.divm2{
+	margin: 0 50px 0 50px;
+	display: flex;
+	justify-content: center;
+}
+.divm3{
+	padding:0 30% 0 30%;
+	margin:100px 50px 0 50px;
+	 display: flex; 
+	 flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.divm3 p{
+	color: var(--color-secondary-Grayish-Violet);
+}
+.divm4{
+	height: 300px;
+	margin: 0 50px 0 50px;
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+.divm4_card{
+	padding: 10px;
+}
+.divm4_card img{
+	background-color: var(--color-secondary-Very-Dark-Blue);
+	border-radius: 50%;
+	padding: 20px;
+}
+.divm4_card.card1{
+	align-self: flex-start;
+}
+.divm4_card.card2{
+	align-self: center;
+}
+.divm4_card.card3{
+	align-self: flex-end;
+}
+.btn_shorten{
+	height: 3rem;
+	border-radius: 0.5rem;
+	background-color:var(--color-primario-Cyan);
+    width: fit-content;
+    padding: 0.5rem 1.2rem;
+	cursor: pointer; 
+	box-shadow: var(--color-primario-Cyan);
+	
+}
+.div_shorten{
+	padding: 50px;
+	border-radius: 1rem;
+	width: 80%;
+	background-size: cover;
+	background-image:url(./../images/bg-shorten-desktop.svg);
+	background-repeat:no-repeat ; 
+	background-color: var(--color-primary-Dark-Violet);
+}
+.btn_shorten_text{
+	text-decoration: none;
+	color: white;
+}
+.text_shorten{
+	width: 80%;
+	height: 3rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+.label_shorten{
+	color:var(--color-secondary-Red);
+
+}
+.divm5{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin: 0 50px 0 50px;
+	background-image:url(./../images/bg-shorten-desktop.svg);
+	background-repeat:no-repeat ; 
+	background-size: cover;
+	background-color: var(--color-secondary-Grayish-Violet);
+
+}
+.divm5 h2{
+	color: white;
+}
+footer{
+	margin: 0 50px 0 50px;
+	height:auto;
+	padding: 20px 10px 20px 10px;
+	display: flex;
+	background-color: var(--color-secondaryVery-Dark-Violet);
+	color: white;
+	
+}
+footer a{
+	text-decoration: none;
+	color: var(--color-secondary-Grayish-Violet);
+
+}
+.fdiv_logo{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+
+}
+.fdiv_opciones{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+.fdiv_opciones li{
+	list-style: none;
+
+}
+.footer__social{
+	width: 30%;
+	padding: 0 5% 0 5%;
+	display: flex;
+	align-content: space-between;
+	justify-content: space-between;
+	align-items: start;
+
+}
